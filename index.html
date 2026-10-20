@@ -1,0 +1,64 @@
+<!doctype html>
+<!--
+  index.html = the STRUCTURE of the page (what is on it, in what order).
+  style.css  = the LOOK (colours, fonts, spacing).
+  script.js  = the BEHAVIOUR (filtering, loading psychologists.json).
+  Tip: change something small, save, refresh the browser, see what moved.
+-->
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <!-- This line makes the page fit phone screens. Don't delete it. -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Brand Name TBD · find someone to talk to</title>
+  <meta name="description" content="A quiet place to find a licensed psychologist, at your own pace.">
+
+  <!-- Fonts from Google Fonts: Cormorant Garamond (serif, elegant) + Jost (clean, light) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;1,400;1,500&family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- 1. HERO: the first thing people see after scanning the QR code -->
+  <header class="hero" id="top">
+    <p class="brand">Brand Name TBD</p>
+
+    <div class="hero-text">
+      <h1>
+        find someone who <em>listens</em>,<br>
+        <strong>at your own pace.</strong>
+      </h1>
+      <p class="hero-sub">a quiet list of licensed psychologists you can reach directly.</p>
+      <a class="scroll-cue" href="#mind">begin &darr;</a>
+    </div>
+  </header>
+
+  <!-- 2. WHAT'S ON YOUR MIND: each line filters the list below -->
+  <section class="mind" id="mind">
+    <p class="eyebrow reveal">what's on your mind?</p>
+    <!-- The buttons are created by script.js from the list at the top of that file -->
+    <div class="mind-list reveal" id="mind-list"></div>
+  </section>
+
+  <!-- 3. THE PSYCHOLOGISTS: filled in by script.js from psychologists.json -->
+  <section class="people" id="people">
+    <p class="people-count reveal" id="people-count"></p>
+    <div id="people-list"></div>
+  </section>
+
+  <!-- 4. CLOSING + the honest small print -->
+  <footer class="closing">
+    <p class="closing-line reveal">there is no right moment. <em>only yours.</em></p>
+    <p class="small">
+      psychologists are listed independently and pay nothing to appear here.
+      this site is not therapy and does not give medical advice.
+      if you or someone near you is in danger, contact local emergency services right away.
+    </p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

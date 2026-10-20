@@ -1,0 +1,41 @@
+[
+  {
+    "name": "Contoh Satu (PLACEHOLDER)",
+    "title": "Psikolog Klinis",
+    "line": "Placeholder: a short, warm sentence in the psychologist's own words goes here.",
+    "concerns": ["overthinking", "burnout", "anxiety"],
+    "languages": ["Indonesian", "English"],
+    "mode": ["online", "in person"],
+    "city": "Jakarta Selatan",
+    "price": "Rp 300-500k",
+    "contact": "https://wa.me/620000000001",
+    "photo": "",
+    "licence_checked": false
+  },
+  {
+    "name": "Contoh Dua (PLACEHOLDER)",
+    "title": "Psikolog",
+    "line": "Placeholder: for the days when everything feels a little heavy.",
+    "concerns": ["low mood", "relationships"],
+    "languages": ["Indonesian"],
+    "mode": ["online"],
+    "city": "Online only",
+    "price": "Rp 200-350k",
+    "contact": "https://wa.me/620000000002",
+    "photo": "",
+    "licence_checked": false
+  },
+  {
+    "name": "Contoh Tiga (PLACEHOLDER)",
+    "title": "Psikolog Klinis",
+    "line": "Placeholder: a calm space for students and young adults.",
+    "concerns": ["exam stress", "overthinking"],
+    "languages": ["Indonesian", "English"],
+    "mode": ["online", "in person"],
+    "city": "Tangerang Selatan",
+    "price": "Rp 250-400k",
+    "contact": "https://wa.me/620000000003",
+    "photo": "",
+    "licence_checked": false
+  }
+]
